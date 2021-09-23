@@ -1,35 +1,35 @@
-<!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/estiloReg.css">
     <title>Registro</title>
 </head>
 
 <body>
-    <div style="width: 50%; float:left" class="form">
-    <section>
-        <form action="advsearcher.php" method="get" id="form-registro" name="form-registro" action="index.html" method="POST">
-            <br>
-            <label for="usuario">Usuario</label><br>
-            <input type="text" id="n-usuario" name="n-usuario"><br>
-            <label for="mail" >Mail</label><br>
-            <input type="text" id="mail" name="mail"><br>
-            <label for="contrasena" class="control">Contraseña</label><br>
-            <input type="password" id="contrasena" name="contrasena"><br>
-            <label for="val-contrasena">Validar Contraseña</label><br>
-            <input type="password" id="val-contrasena" name="val-contrasena"><br>
-            <a href="login.html" id="enlace-login" name="enlace-login">Login</a>
-        </form>
+    <form action="advsearcher.php" method="get" id="form-registro" name="form-registro" action="index.html" method="POST">
+        <div style="width: 25%; height: 85%; float:left" class="login-box">
+        <h1 > Registro </h1 >
+        <section>
+        <label for="registro"></label>
+            <form action="advsearcher.php" method="get" id="form-registro" name="form-registro" action="index.html" method="POST">
+                <br>
+                <label for="usuario">Usuario</label><br>
+                <input type="text" id="n-usuario" name="n-usuario"><br>
+                <label for="mail" >Mail</label><br>
+                <input type="text" id="mail" name="mail"><br>
+                <label for="contrasena" class="control">Contraseña</label><br>
+                <input type="password" id="contrasena" name="contrasena"><br>
+                <label for="val-contrasena">Validar Contraseña</label><br>
+                <input type="password" id="val-contrasena" name="val-contrasena"><br><br>
+                <input type="submit" value="Registrarte">
+            </form>
     </section>
     </div>
 
-    <div style="width: 50%; float:right">
-        <img src="img/icono1.jpg" alt="logo" >
-     </div>
+   
 
 
 </body>
