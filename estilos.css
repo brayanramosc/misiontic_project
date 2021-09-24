@@ -38,7 +38,12 @@ html{
     border-radius: 20px;
     margin-top: 50vh;
     margin-left: 60px;
-    cursor: pointer;    
+    cursor: pointer;
+}
+
+#link_registro{
+    color: white;
+    text-decoration: none;
 }
 
 .texto{
