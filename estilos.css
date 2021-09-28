@@ -10,12 +10,12 @@ html{
 
 .caja-uno{
     flex-basis: 20%;
-    background: linear-gradient(#37E8E8,#0E9393 );
+    background: #000000 ;
     text-align: center;
 }
 .caja-dos{
     flex-basis: 80%;
-    background-color: #D6EAF8    ;
+    background-color: #79848d
 }
 
 .logo{
@@ -30,11 +30,11 @@ html{
 
 .boton{
     display: flex;
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     padding: 10px 20px;
-    background: transparent;
-    border: 1px solid #000000;
+    background: #b80f22;
+    border: none;
     border-radius: 20px;
     margin-top: 50vh;
     margin-left: 60px;
