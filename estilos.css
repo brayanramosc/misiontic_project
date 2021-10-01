@@ -1,8 +1,9 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
+
 .contenedor{
-    width: 100%;
+    width:100%;
     height: 100vh;
     display: flex;
     margin: auto;
@@ -20,12 +21,12 @@ html{
 
 .logo{
     display: flex;
-    width: 70%;
+    width: 80%;
     height: 70%;
     cursor: pointer;
     border-radius: 50%;
     margin-top: 8%;
-    margin-left: 13%;
+    margin-left: 8%;
 }
 
 .boton{
@@ -37,9 +38,15 @@ html{
     border: none;
     border-radius: 20px;
     margin-top: 50vh;
-    margin-left: 60px;
+    margin-left: 80px;
     cursor: pointer;
 }
+
+.boton:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
 
 #link_registro{
     color: black;
