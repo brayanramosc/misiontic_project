@@ -1,4 +1,4 @@
-function validar_nombreUsuario(string) {
+export function validar_nombreUsuario(string) {
     const ptr = new RegExp('^[A-Z0-9Ñ]+$', 'i');
     if (string.length < 3 || string.length > 9) {
         return false;
@@ -9,7 +9,7 @@ function validar_nombreUsuario(string) {
     }
 }
 
-function validar_contrasena(string) {
+export function validar_contrasena(string) {
     const ptr = new RegExp('^[A-Z0-9Ñ]+$', 'i');
     if (string.length < 6) {
         return false;
@@ -20,5 +20,5 @@ function validar_contrasena(string) {
     }
 }
 
-module.exports.validar_nombreUsuario = validar_nombreUsuario;
-module.exports.validar_contrasena = validar_contrasena;
+/*module.exports.validar_nombreUsuario = validar_nombreUsuario;
+module.exports.validar_contrasena = validar_contrasena;*/

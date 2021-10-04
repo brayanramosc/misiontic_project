@@ -5,33 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/estiloReg.css">
+    <script type="module" src="registro.js"></script>
     <title>Registro</title>
 </head>
 
 <body>
-    <form action="advsearcher.php" method="get" id="form_registro_usuario" name="form_registro_usuario" action="index.html" method="POST">
-        <div style="width: 25%; height: 80%; float:left" class="login-box">
+    <div style="width: 25%; height: 80%; float:left" class="login-box">
         <h1 > Registro </h1 >
         <section>
-        <label for="registro"></label>
-            <form action="advsearcher.php" method="get" id="form_registro_usuario" name="form_registro_usuario" action="index.html" method="POST">
-                <br>
+            <label for="registro"></label>
+            <form id="form_registro_usuario" name="form_registro_usuario" method="POST"><br>
                 <label for="in_usuario">Usuario</label><br>
                 <input type="text" id="in_usuario" name="in_usuario"><br>
+
                 <label for="in_contrasena" class="control">Contraseña</label><br>
                 <input type="password" id="in_contrasena" name="in_contrasena"><br>
+
                 <label for="mail" >Mail</label><br>
-                <input type="text" id="mail" name="mail"><br>
+                <input type="text" id="in_email" name="mail"><br>
+
                 <label for="val-contrasena">Validar Contraseña</label><br>
-                <input type="password" id="val-contrasena" name="val-contrasena"><br><br>
+                <input type="password" id="val_contrasena" name="val-contrasena"><br><br>
+
                 <button type="submit" id="btn_enviar_registro">Registrarse</button>
              </form>
-    </section>
+        </section>
     </div>
-
-   
-
-
 </body>
 
 </html>
