@@ -1,80 +1,82 @@
-html{
-    font-family: 'Roboto', sans-serif;
-}
-
-.contenedor{
-    width:100%;
-    height: 100vh;
-    display: flex;
-    margin: auto;
+    html {
+        font-family: 'Roboto', sans-serif;
     }
-
-.caja-uno{
-    flex-basis: 20%;
-    background: #000000 ;
-    text-align: center;
-}
-.caja-dos{
-    flex-basis: 80%;
-    background-color: #e6e7e7
-}
-
-.logo{
-    display: flex;
-    width: 80%;
-    height: 70%;
-    cursor: pointer;
-    border-radius: 50%;
-    margin-top: 8%;
-    margin-left: 8%;
-}
-
-.boton{
-    display: flex;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px;
-    background: #b80f22;
-    border: none;
-    border-radius: 20px;
-    margin-top: 50vh;
-    margin-left: 80px;
-    cursor: pointer;
-}
-
-.boton:hover{
-    cursor: pointer;
-    background: #ffc107;
-    color: #000;
-  }
-
-#link_registro{
-    color: black;
-    text-decoration: none;
-}
-
-.texto{
-    margin-top: 5%;
-    text-align: center;
-}
-#parrafo-uno{
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: justify;
-}
-
-.texto-sec{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin-top: 10%;
-    justify-content: space-around;
-}
-
-.icono{
-    width: 120px;
-    height: 120px;
-    cursor: pointer;
-    border-radius: 50%;
-    text-align: center;
-}
+    
+    .contenedor {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        margin: auto;
+    }
+    
+    .caja-uno {
+        flex-basis: 20%;
+        background: #000000;
+        text-align: center;
+    }
+    
+    .caja-dos {
+        flex-basis: 80%;
+        background-color: #e6e7e7
+    }
+    
+    .logo {
+        display: flex;
+        width: 80%;
+        height: 70%;
+        cursor: pointer;
+        border-radius: 50%;
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+    
+    .boton {
+        display: flex;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px;
+        background: #b80f22;
+        border: none;
+        border-radius: 20px;
+        margin-top: 50vh;
+        margin-left: 80px;
+        cursor: pointer;
+    }
+    
+    .boton:hover {
+        cursor: pointer;
+        background: #ffc107;
+        color: #000;
+    }
+    
+    #link_registro {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .texto {
+        margin-top: 5%;
+        text-align: center;
+    }
+    
+    #parrafo-uno {
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: justify;
+    }
+    
+    .texto-sec {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-top: 10%;
+        justify-content: space-around;
+    }
+    
+    .icono {
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+        border-radius: 50%;
+        text-align: center;
+    }
