@@ -80,3 +80,133 @@
         border-radius: 50%;
         text-align: center;
     }
+    
+    .leg-container__principal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+    }
+    
+    @media (max-width: 300px) {
+        .leg-container__principal {
+            -min-width: 350px;
+        }
+    }
+    
+    .leg-container {
+        margin: 1%;
+    }
+    
+    .leg-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        border-radius: 5px;
+        box-shadow: 1px 1px 9px #0000007a;
+        background: rgba(255, 255, 255, 0.082);
+        padding: 10px;
+        margin: 10px;
+        max-width: 250px;
+    }
+    
+    .form {
+        min-width: 200px;
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        color: black;
+    }
+    
+    .form__input {
+        min-width: 50%;
+        text-align: center;
+    }
+    
+    div.form>h4 {
+        margin: 18px 0px 18px 0px;
+        font-size: 20px;
+    }
+    
+    div.form>p .nombre {
+        margin: 0px;
+        padding: 10px;
+    }
+    
+    .form .span {
+        text-decoration: none;
+        text-align: end;
+        font-weight: 0;
+        font-size: 22px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    div.form>img {
+        min-width: 60%;
+        margin: 0% 30%;
+    }
+    
+    div.form>a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        background: #0250b67e;
+        padding: 10px 0px;
+        text-shadow: 1px 1px 1px black;
+        border-radius: 8px;
+        margin: 10px 0px 8px 0px;
+    }
+    
+    div.form>a:hover {
+        background: #030169;
+    }
+    
+    .form-img {
+        min-width: 240px;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form-img>img {
+        width: 100%;
+    }
+    
+    .gra-container_principal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+    }
+    
+    @media (max-width: 300px) {
+        .gra-container_principal {
+            -min-width: 350px;
+        }
+    }
+    
+    .gra-container {
+        margin: 1%;
+    }
+    
+    .gra-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        border-radius: 5px;
+        box-shadow: 1px 1px 9px #0000007a;
+        background: rgba(255, 255, 255, 0.082);
+        padding: 10px;
+        margin: 10px;
+        max-width: 250px;
+    }
