@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(img/bg.jpg) no-repeat center top;
+  background: url("img/bg.jpg") no-repeat center top;
   background-size: cover;
   font-family: sans-serif;
   height: 100vh;
@@ -78,7 +78,7 @@ body {
 .login-box button {
   display: block;
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   background: #b80f22;
   border: 1px solid #b80f22;
   border-radius: 20px;
@@ -90,8 +90,8 @@ body {
 }
 
 .login-box button:disabled {
-  background: #F1948A ;
-  border: 1px solid #F1948A ;
+  background: #b80f22 ;
+  border: 1px solid #b80f22 ;
   color: lightgray;
 }
 .form-box.form-error input {
