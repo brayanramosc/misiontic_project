@@ -22,11 +22,11 @@
     
     .logo {
         display: flex;
-        width: 80%;
-        height: 70%;
+        width: 130px;
+        height: 130px;
         cursor: pointer;
-        border-radius: 50%;
-        margin-top: 8%;
+        border-radius: 150%;
+        margin-top: 10%;
         margin-left: 8%;
     }
     
