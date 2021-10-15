@@ -125,7 +125,7 @@
     }
     
     .form__input {
-        min-width: 50%;
+        min-width: 75%;
         text-align: center;
     }
     
@@ -188,7 +188,7 @@
     
     @media (max-width: 300px) {
         .gra-container_principal {
-            -min-width: 350px;
+            min-width: 350px;
         }
     }
     
