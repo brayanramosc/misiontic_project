@@ -15,13 +15,13 @@ body {
 
 .login-box {
   width:  320 px ;
-  height:  420 px ;
+  height:  100vh ;
   background:  #000 ;
   color:  #fff ;
   top:  50% ;
   left:  70% ;
-  transform:  traducir ( -50% ,  -50% );
-  box-sizing: frontera-box;
+  /*transform:  translate( -50% ,  -50% );*/
+  box-sizing: border-box;
   padding:  70px  30px ;
 }
 
@@ -58,18 +58,19 @@ body {
   border-bottom: 1px solid #fff;
   background: transparent;
   outline: none;
-  height: 40px;
+  /*height: 40px;*/
   color: #fff;
   font-size: 16px;
 }
 
-.form-box {
+/*.form-box {
   padding-bottom: 20px;
   margin-bottom: 10px;
-}
+}*/
 
 
 .form-box .error-text {
+  padding-bottom: 20 px;
   display: block;
   color: #ca3434;
   visibility: hidden;
